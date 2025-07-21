@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-# Week 1 - Linear Search
+// Week 1 - Linear Search
 
 int main() {
     int size;
