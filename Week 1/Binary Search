@@ -42,8 +42,8 @@ int main() {
 
         if (arr[mid] == element) {
             printf("Found element at %d position\n", mid);
-            int found = 1;
-            return;
+            found = 1;
+            return 0;
         }
 
         else if (arr[mid] < element) {
