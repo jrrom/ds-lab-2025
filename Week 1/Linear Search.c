@@ -8,7 +8,7 @@ int main() {
     scanf("%d", &size);
 
     if (size < 1) {
-        printf("Size of the array must be greater than 1");
+        printf("Size of the array must be greater than 0");
         return -1;
     }
 
