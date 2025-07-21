@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Week One - Smallest, Largest in an Array
+// Week 1 - Smallest, Largest in an Array
 
 int size;
 int main() {
