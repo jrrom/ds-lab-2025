@@ -2,8 +2,8 @@
 
 // Week 1 - Smallest, Largest in an Array
 
-int size;
 int main() {
+    int size;
     printf("Enter the size of the array: ");
     scanf("%d", &size);
 
