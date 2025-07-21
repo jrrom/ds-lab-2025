@@ -1,0 +1,61 @@
+#include <stdio.h>
+
+// Week 1 - Binary Search
+
+int main() {
+    int size;
+    printf("Enter the size of the sorted array: ");
+    scanf("%d", &size);
+
+    if (size < 1) {
+        printf("Size of the array must be greater than 1");
+        return -1;
+    }
+
+    int arr[size];
+    for (int i = 0; i < size; i++) {
+        printf("Enter number %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+
+    // Check if sorted
+
+    for (int i = 1; i < size; i++) {
+        if (arr[i] < arr[i - 1]) {
+            printf("The array is not sorted");
+            return -1;
+        }
+    }
+
+    int element;
+    printf("\nEnter the element to search for: ");
+    scanf("%d", &element);
+
+    // Search
+
+    int low  = 0;
+    int high = size - 1;
+    int found = 0;
+
+    while (low <= high) {
+        int mid = (high + low) / 2;
+
+        if (arr[mid] == element) {
+            printf("Found element at %d position\n", mid);
+            int found = 1;
+            return;
+        }
+
+        else if (arr[mid] < element) {
+            low = mid + 1;
+        }
+
+        else {
+            high = mid - 1;
+        }
+    }
+
+    if (!found) {
+        printf("Element not found");
+    }
+}
