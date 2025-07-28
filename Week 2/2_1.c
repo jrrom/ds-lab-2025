@@ -3,6 +3,8 @@
 // Preprocessor directives
 #include <stdio.h>
 
+void find_smallest(int[], int, int*)
+
 // Main function
 int main() {
     int n;
