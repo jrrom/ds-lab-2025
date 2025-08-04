@@ -74,3 +74,15 @@ int main() {
     delete_substring(str2, " Wor");
     printf("%s\n", str2);
 }
+
+// Getting length:
+// 5
+// Showing concatenation:
+// Hello World World
+// Showing comparison:
+// 40
+// 0
+// Showing substring insertion:
+// HelHellolo
+// Showing substring deletion:
+// ldld
