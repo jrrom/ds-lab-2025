@@ -57,3 +57,30 @@ int main() {
 
     display_students(students, n);
 }
+
+// Enter number of students to enter: 3
+
+// Enter details:
+// Enter roll no: 1
+// Enter name: Name1
+// Enter grade: A
+
+// Enter roll no: 2
+// Enter name: Name2
+// Enter grade: C
+
+// Enter roll no: 3
+// Enter name: Name3
+// Enter grade: B
+
+// Roll:   1
+// Name:   Name1
+// Grade:  A
+
+// Roll:   2
+// Name:   Name2
+// Grade:  C
+
+// Roll:   3
+// Name:   Name3
+// Grade:  B
