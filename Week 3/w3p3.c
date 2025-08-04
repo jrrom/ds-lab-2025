@@ -59,3 +59,23 @@ int main() {
     printf("Details of student with the most marks: \n");
     display_student(max);
 }
+
+// Enter number of students to enter: 3
+
+// Enter details:
+// Enter roll no: 1
+// Enter name: Name1
+// Enter marks: 50
+
+// Enter roll no: 2
+// Enter name: Name2
+// Enter marks: 90
+
+// Enter roll no: 3
+// Enter name: Name3
+// Enter marks: 60
+
+// Details of student with the most marks:
+// Roll:   2
+// Name:   Name2
+// Grade:  90.000000
